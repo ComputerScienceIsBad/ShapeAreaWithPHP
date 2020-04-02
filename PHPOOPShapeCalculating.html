@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <!-- Sets the title at the top of the page-->
+</head>
+<body>
+
+
+
+<!--Rectangle-->
+<div>Rectangle:
+    <!-- This form creates a small forn you can input the length and width of the rectangle. Once
+    the user presses the "Submit" button, the numbers are then sent into "CalculateRectangle.php" -->
+    <form action="CalculateRectangle.php" method="post"> <!-- This creates the small table-->
+        Width: <input type="number" name="Width"> <!-- Where the number of the Width is set-->
+        <br> 
+        Length: <input type="number" name="Length"> <!-- Where the number of the Length is set-->
+        <input type="submit"> <!-- When submit is clicked, the two above numbers are then sent into "CalculateRectangle.php". -->
+    </form>
+</div>  
+
+<br>
+<br>
+
+<!--Circle-->
+<div>Circle:
+    <form action="CalculateCircle.php" method="post"> <!-- Creates the small table. -->
+        Radius: <input type="number" name="Radius"> <!-- Where the Radius is places into -->
+        <input type="submit"> <!-- When submit is clicked, the Radius is sent into "CalculateCircle.php" -->
+    </form>
+</div>  
+
+<br>
+<br>
+
+<!--Triangle-->
+<div>Triangle:
+    <form action="CalculateTriangle.php" method="post"> <!-- Creates the small table -->
+        Base: <input type="number" name="Base">  <!-- Where the base is typed into -->
+        <br>
+        Width: <input type="number" name="Height"> <!-- Where the base is typed into -->
+        <input type="submit">
+    </form>
+</div>  
+
+</body>
+</html>
